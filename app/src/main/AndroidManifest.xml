@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quizoid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Parent"></activity>
+        <activity android:name=".Teacher_Options" />
+        <activity android:name=".sresult" />
+        <activity android:name=".squiz" />
+        <activity android:name=".gxfhgcjhvkj" />
+        <activity android:name=".result" />
+        <activity android:name=".finish" />
+        <activity android:name=".quiz" />
+        <activity android:name=".studentstart" />
+        <activity android:name=".sgenerate" />
+        <activity android:name=".ogenerate" />
+        <activity android:name=".objectiveQ" />
+        <activity android:name=".subjectiveQ" />
+        <activity android:name=".both" />
+        <activity android:name=".Subjective" />
+        <activity android:name=".Objectivee" />
+        <activity android:name=".QuestionType" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
